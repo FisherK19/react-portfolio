@@ -1,5 +1,4 @@
 import React from 'react';
-import Logo from '../assets/images/logo.png';
 import JqueryLogo from '../assets/images/jquery-logo.png';
 import BootstrapLogo from '../assets/images/bootstrap-logo.png';
 import MernLogo from '../assets/images/mern-logo.jpg';
@@ -55,18 +54,10 @@ const Resume = () => {
                                     <div className='code'>Technologies</div>
                                 </div>
 
-                                <div className='grid-container-skills'>
-                                    <div className='grid-item-skills'>
-                                        <img src={Logo} className='img-skills' />
-                                    </div>
-
                                     <div className='grid-item-skills'>
                                         <img src={MernLogo} className='img-skills' />
                                     </div>
 
-                                    <div className='grid-item-skills'>
-                                        <img src={ReduxLogo} className='img-skills' />
-                                    </div>
 
                                     <div className='grid-item-skills'>
                                         <img src={JqueryLogo} className='img-skills' />
@@ -78,10 +69,6 @@ const Resume = () => {
 
                                     <div className='grid-item-skills'>
                                         <img src={BootstrapLogo} className='img-skills' />
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <img src={VueLogo} className='img-skills' />
                                     </div>
 
                                     <div className='grid-item-skills'>
@@ -127,7 +114,6 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
-            </div>
         </React.Fragment>
     );
 };
