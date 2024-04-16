@@ -1,6 +1,6 @@
 import React from 'react';
-import Avatar from '';
-import EdXLogo from '../assets/images/EdX_logo.svg';
+import Avatar from '../assets/images/Kristie portfolio.jpg';
+import EdXLogo from '../assets/images/EdX_newer_logo.svg.png';
 import '../App.css';
 
 const About = () => {

@@ -2,11 +2,11 @@ import React from 'react';
 import Logo from '../assets/images/logo.png';
 import JqueryLogo from '../assets/images/jquery-logo.png';
 import BootstrapLogo from '../assets/images/bootstrap-logo.png';
-import MernLogo from '../assets/images/mern-logo.png';
-import WebpackLogo from '../assets/images/webpack-logo.png';
+import MernLogo from '../assets/images/mern-logo.jpg';
+import WebpackLogo from '../assets/images/webpack-logo.jpg';
 import HandlebarsLogo from '../assets/images/handlebars-logo.png';
-import SqlLogo from '../assets/images/sql-logo.png';
-import MongoLogo from '../assets/images/mongodb-logo.png';
+import SqlLogo from '../assets/images/sql-logo.jpg';
+import MongoLogo from '../assets/images/mongodb-logo.jpg';
 import '../App.css';
 import '../portfolio.css';
 
