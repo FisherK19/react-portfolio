@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Row, Col } from 'react-bootstrap';
+import { Container, Row, Col } from 'react-bootstrap';
 import ContactForm from '../components/contact-form';
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import '../App.css';
@@ -16,13 +16,13 @@ const ContactLink = ({ href, icon: Icon, text }) => (
 function Contact() {
     return (
         <div className='container'>
-            <Jumbotron fluid className="p-5 mb-0">
+            <div className="jumbotron p-5 mb-0">
                 <Container className="text-center">
                     <div className="p-md-5">
                         <h1>Contact Me</h1>
                     </div>
                 </Container>
-            </Jumbotron>
+            </div>
 
             <Container fluid className="shadow bg-light mb-5">
                 <Container className="p-4">
@@ -61,3 +61,5 @@ function Contact() {
 }
 
 export default Contact;
+
+

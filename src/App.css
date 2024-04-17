@@ -30,25 +30,16 @@
     align-items: center;
     justify-content: center;
   }
-  
   .button {
-    width: 200px;
-    height: 45px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 500;
-    color: #000;
-    background-color: peachpuff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: #fff;
+    /* Other styles */
     transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  
+    &:hover {
+        background-color: #0056b3; /* Darker shade of blue for hover */
+        color: #fff;
+    }
+}
   .card-body {
     margin-left: 1.5rem;
     margin-right: 1.5rem;
@@ -58,7 +49,7 @@
   }
   
   .footer {
-    background-color: #929fba;
+    background-color: #6c757d;
     padding-top: 1rem;
   }
   
@@ -83,7 +74,7 @@
   }
   
   .jumbotron {
-    background-color: #fff;
+    background-color: #f8f9fa;
     border-radius: .125rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
@@ -175,14 +166,14 @@
     overflow: auto;
     padding: 0 20px;
     min-height: 9vh;
-    background: black;
+    background: #343a40;
     align-items: center;
     list-style: none;
   }
   
   .topnav a {
     float: left;
-    color: #F06543;
+    color: #007bff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -203,8 +194,8 @@
   }
   
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #0056b3;
+    color: white;
     list-style: none;
   }
   
@@ -302,12 +293,12 @@
   }
   
   .btn {
-    background-color: #E0A62D;
-    border: 3px solid #E0A62D;
+    background-color: #007bff; 
+    border-color: #007bff;
   }
   .btn:hover, .btn:active {
-    background-color: #dc5a26;
-    border: 3px solid #dc5a26;
+    background-color: #0056b3; 
+    border-color: #0056b3;
   }
   
   @media screen and (max-width: 980px) {

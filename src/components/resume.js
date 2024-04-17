@@ -30,19 +30,36 @@ const Resume = () => {
 
                             <div className='card-body'>
                                 <div className="row">
-                                    <div className='code'>Computer Science Fundamentals</div>
-                                </div>
-                                <div className='grid-container-skills'>
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Data Structures</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Algorithm</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Design Patterns</p>
+                                <div className='code'>Web Development Skills</div>
+                            </div>
+                            
+                            <div className='grid-container-skills'>
+                             <div className='grid-item-skills'>
+                            <p className='p-about'>HTML</p>
+                             </div>
+                             <div className='grid-item-skills'>
+                             <p className='p-about'>CSS</p>
+                          </div>
+                      <div className='grid-item-skills'>
+                   <p className='p-about'>JavaScript</p>
+                   </div>
+                 <div className='grid-item-skills'>
+               <p className='p-about'>React.js</p>
+             </div>
+             <div className='grid-item-skills'>
+             <p className='p-about'>Node.js</p>
+             </div>
+             <div className='grid-item-skills'>
+             <p className='p-about'>Express.js</p>
+            </div>
+          <div className='grid-item-skills'>
+        <p className='p-about'>MongoDB</p>
+            </div>
+             <div className='grid-item-skills'>
+          <p className='p-about'>RESTful APIs</p>
+         </div>
+         <div className='grid-item-skills'>
+        <p className='p-about'>GraphQL</p>
                                     </div>
                                 </div>
                             </div>
@@ -87,33 +104,11 @@ const Resume = () => {
 
                             <div className="modal-footer" />
 
-                            <div className='card-body'>
-                                <div className="row">
-                                    <div className='code'>Project Management</div>
-                                </div>
-
-                                <div className='grid-container-skills'>
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Agile Principles and Practices</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Project Schedule and Risk Management</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Project Scope and Quality Management</p>
-                                    </div>
-
-                                    <div className='grid-item-skills'>
-                                        <p className='p-about'>Web Developer</p>
+                            
                                     </div>
                                 </div>
                             </div>
 
-                        </div>
-                    </div>
-                </div>
         </React.Fragment>
     );
 };

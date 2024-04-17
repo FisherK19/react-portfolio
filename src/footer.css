@@ -1,10 +1,7 @@
 :root {
-    /* from coolers: https://coolors.co/f06543-e8e9eb-e0dfd5-313638-f09d51 */
-    --orange-soda:#F06543;
-    --platinum:#E8E9EB;
-    --alabaster:#E0DFD5;
-    --onyx:#313638;
-    --sandy-brown: #F09D51;
+    --primary-color: #007bff; /* Blue tone from your APP.css */
+    --secondary-color: #0056b3; /* Darker shade of blue */
+    --background-color: #f8f9fa; /* Light gray background */
 }
 
 .img-link {
@@ -13,29 +10,29 @@
 
 .footer-info {
     font-size: 24px;
-    color: var(--orange-soda);
+    color: var(--primary-color);
     font-weight: bold;
-    background-color: var(--platinum);
+    background-color: var(--background-color);
     text-align: center;
 }
 
 h1 {
     margin: auto 30px;
     padding: 10px;
-    color: var(--onyx);
+    color: var(--primary-color);
     font-weight: bold;
 }
 
 #topics {
     font-size: small;
     font-style: italic;
-    color: var(--onyx);
+    color: var(--primary-color);
 }
 
 #card-title {
     margin-top: 10px;
-    color: var(--onyx);
-    text-shadow: 1px 1px 6px var(--sandy-brown);
+    color: var(--primary-color);
+    text-shadow: 1px 1px 6px var(--secondary-color);
 }
 
 #footer {
@@ -55,28 +52,28 @@ h1 {
 }
 
 .error-text {
-    color: var(--orange-soda);
+    color: var(--primary-color);
 }
 
 #footer {
-    background-color: var(--onyx);
+    background-color: var(--secondary-color);
 }
 
 #footer .icon {
-    background-color: var(--onyx);
+    background-color: var(--secondary-color);
     margin-top: 20px;
 }
 
 #footer p {
-    background-color: var(--onyx);
+    background-color: var(--secondary-color);
     margin-top: 8px;
 }
 
 #footer a {
     text-decoration: none;
-    color: var(--orange-soda);
+    color: var(--primary-color);
 }
 
 #react-icon {
-    background-color: var(--onyx);
+    background-color: var(--secondary-color);
 }

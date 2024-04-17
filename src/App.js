@@ -7,8 +7,7 @@ import About from './components/about';
 import Contact from './components/contact';
 import Portfolio from './components/portfolio';
 import Project from './components/project'; 
-import Resume from './components/resumeesume';
-import Navbar from './components/navbar'; 
+import Resume from './components/resume';
 import './App.css';
 
 function App() {
@@ -16,7 +15,6 @@ function App() {
     <Router>
       <div className="App">
         <Header />
-        <Navbar /> 
         <Switch>
           <Route path="/" exact component={Portfolio} />
           <Route path="/about" component={About} />
@@ -31,3 +29,4 @@ function App() {
 }
 
 export default App;
+
