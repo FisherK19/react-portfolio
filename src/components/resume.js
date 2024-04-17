@@ -55,32 +55,32 @@ const Resume = () => {
                                 </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={MernLogo} className='img-skills' />
+                                    <img src={MernLogo} className='img-skills' alt="MERN Stack logo" />
                                     </div>
 
 
                                     <div className='grid-item-skills'>
-                                        <img src={JqueryLogo} className='img-skills' />
+                                    <img src={JqueryLogo} className='img-skills' alt="jQuery logo" />
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={WebpackLogo} className='img-skills' />
+                                    <img src={WebpackLogo} className='img-skills' alt="Webpack logo" />
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={BootstrapLogo} className='img-skills' />
+                                    <img src={BootstrapLogo} className='img-skills' alt="Bootstrap logo" />
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={HandlebarsLogo} className='img-skills' />
+                                    <img src={HandlebarsLogo} className='img-skills' alt="Handlebars logo" />
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={SqlLogo} className='img-skills' />
+                                    <img src={SqlLogo} className='img-skills' alt="SQL logo" />
                                     </div>
 
                                     <div className='grid-item-skills'>
-                                        <img src={MongoLogo} className='img-skills' />
+                                    <img src={MongoLogo} className='img-skills' alt="MongoDB logo" />
                                     </div>
                                 </div>
                             </div>

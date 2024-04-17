@@ -13,7 +13,7 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                    <img className='avatar' src={Avatar} />
+                                <img className='avatar' src={Avatar} alt="Profile avatar" />
                                 </div>
                             </div>
 
@@ -42,7 +42,7 @@ const About = () => {
                                     </div>
 
                                     <div className='grid-item'>
-                                        <a href='https://www.edx.org/' target='_blank'><img className='EDX-logo' src={EdXLogo} /></a>
+                                    <a href='https://www.edx.org/' target='_blank' rel="noopener noreferrer"><img className='EDX-logo' src={EdXLogo} alt="EdX logo" /></a>
                                     </div>
                                 </div>
                             </div>
