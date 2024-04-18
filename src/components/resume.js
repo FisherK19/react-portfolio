@@ -29,13 +29,13 @@ const Resume = () => {
                                 </h3>
                             </div>
 
-                            <div className="modal-footer"/>  // Placeholder for layout consistency
+                            <div className="modal-footer"/>  
 
                             {/* Skills header */}
                             <div className="header">
                                 <h3>Skills</h3>
                             </div>
-                            <div className="modal-footer"/>  // Another placeholder for layout consistency
+                            <div className="modal-footer"/>  
 
                             {/* Skills list section */}
                             <div className='card-body'>
@@ -74,7 +74,7 @@ const Resume = () => {
                                 </div>
                             </div>
 
-                            <div className="modal-footer"/>  // Footer to create separation and balance in layout
+                            <div className="modal-footer"/>  
 
                             {/* Technologies logos section */}
                             <div className='card-body'>
