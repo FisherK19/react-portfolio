@@ -20,7 +20,7 @@ const About = () => {
                             <div className='card-body'>
                                 <div className="row">
                                     <p className='p-about'>
-                                    I am currently full-stack developer student with a solid foundation in computer science and a growing expertise in key web technologies. 
+                                    I am currently a full-stack developer student with a solid foundation in computer science and a growing expertise in key web technologies. 
                                     My toolkit includes JavaScript, ReactJS, and NodeJS for building dynamic front-end and back-end applications. 
                                     I also work with MongoDB for database management, and I'm skilled in crafting well-structured HTML and stylish CSS layouts.
                                     Additionally, I use tools like Insomnia to test and manage APIs. 

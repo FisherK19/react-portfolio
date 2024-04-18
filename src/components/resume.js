@@ -32,7 +32,6 @@ const Resume = () => {
                                 <div className="row">
                                 <div className='code'>Web Development Skills</div>
                             </div>
-                            
                             <div className='grid-container-skills'>
                              <div className='grid-item-skills'>
                             <p className='p-about'>HTML</p>
@@ -40,26 +39,26 @@ const Resume = () => {
                              <div className='grid-item-skills'>
                              <p className='p-about'>CSS</p>
                           </div>
-                      <div className='grid-item-skills'>
-                   <p className='p-about'>JavaScript</p>
-                   </div>
-                 <div className='grid-item-skills'>
-               <p className='p-about'>React.js</p>
-             </div>
-             <div className='grid-item-skills'>
-             <p className='p-about'>Node.js</p>
-             </div>
-             <div className='grid-item-skills'>
-             <p className='p-about'>Express.js</p>
-            </div>
-          <div className='grid-item-skills'>
-        <p className='p-about'>MongoDB</p>
-            </div>
-             <div className='grid-item-skills'>
-          <p className='p-about'>RESTful APIs</p>
-         </div>
-         <div className='grid-item-skills'>
-        <p className='p-about'>GraphQL</p>
+                            <div className='grid-item-skills'>
+                                <p className='p-about'>JavaScript</p>
+                                </div>
+                                <div className='grid-item-skills'>
+                            <p className='p-about'>React.js</p>
+                            </div>
+                            <div className='grid-item-skills'>
+                            <p className='p-about'>Node.js</p>
+                            </div>
+                            <div className='grid-item-skills'>
+                            <p className='p-about'>Express.js</p>
+                                </div>
+                            <div className='grid-item-skills'>
+                            <p className='p-about'>MongoDB</p>
+                                </div>
+                                <div className='grid-item-skills'>
+                            <p className='p-about'>RESTful APIs</p>
+                            </div>
+                            <div className='grid-item-skills'>
+                            <p className='p-about'>GraphQL</p>
                                     </div>
                                 </div>
                             </div>

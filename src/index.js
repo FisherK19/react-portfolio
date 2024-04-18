@@ -11,12 +11,12 @@ ReactDOM.render(
     <React.StrictMode>
         <Router>
             <App />
-            <ParticlesBg type="square" bg={true} />
+            {/* Change the type prop to the desired effect */}
+            <ParticlesBg type="thick" bg={true} num={100} />
+
         </Router>
     </React.StrictMode>,
     document.getElementById('root')
 );
 
-// Consider registering the service worker if your application is ready for production
-// and you have tested it thoroughly to handle cache issues.
-serviceWorker.register();  // Change based on your caching strategy and readiness for production
+serviceWorker.register();
