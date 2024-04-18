@@ -13,7 +13,7 @@ const About = () => {
 
                             <div className='card-body'>
                                 <div className="row abstract-back ">
-                                <img className='avatar' src={Avatar} alt="Kristie Fisher" />
+                                    <img className='avatar' src={Avatar} alt="Kristie Fisher" />
                                 </div>
                             </div>
 
@@ -40,10 +40,10 @@ const About = () => {
                                         <div className='title-uni'>edX</div>
                                         <div className='title-concentration'>Full Stack Web Development</div>
                                     </div>
-
-                                    <div className='grid-item'>
+                                </div>
+                                    
+                                <div className='logo-container'>
                                     <a href='https://www.edx.org/' target='_blank' rel="noopener noreferrer"><img className='EDX-logo' src={EdXLogo} alt="EdX logo" /></a>
-                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -55,3 +55,4 @@ const About = () => {
 };
 
 export default About;
+
