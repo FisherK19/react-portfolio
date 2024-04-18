@@ -17,8 +17,11 @@ const Resume = () => {
                     <div className='col'>
                         <div className='card'>
                             <div className="header">
-                                <h3>Download Resume: <a href="">Kristie Fisher</a>
-                                </h3>
+                            <h3>
+                            <a href="/resume.pdf" download="Kristie_Fisher_Resume.pdf">
+                                Download Resume: Kristie Fisher
+                            </a>
+                            </h3>
                             </div>
 
                             <div className="modal-footer"/>

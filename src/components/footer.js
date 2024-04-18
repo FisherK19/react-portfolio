@@ -13,8 +13,10 @@ function Footer() {
                 </a>
             </div>
             <p className='footer-info'>
-                &copy; Kristie Fisher  |  <a href="" className="link">download resume</a>   |  made with <img id="react-icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"/>
-            </p>
+            &copy; Kristie Fisher | 
+            <a href="/resume.pdf" download="Kristie_Fisher_Resume.pdf" className="link">download resume</a> | 
+            made with <img id="react-icon" src="https://img.icons8.com/color/48/000000/react-native.png" alt="React"/>
+        </p>
         </div>
     )
 }
