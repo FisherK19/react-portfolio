@@ -2,12 +2,14 @@ import React from 'react';
 import '../App.css';
 import '../portfolio.css';
 
-const ProjectCards = ({ id, image, name, github, deploy }) => (
-    <div className={`grid-item gallery__item--${id}`}>
-        <img src={image} alt={name} className="gallery__img" />
-        <div className="desc">
-            <h5>{name}</h5>
-        </div>
+function ProjectCards(props) {
+    return (
+        <div className={`grid-item gallery__item--${props.id}`}>
+            <img src={props.image} alt={props.name}
+                 className="gallery__img"/>
+            <div className="desc">
+                <h5>{props.name}</h5>
+            </div>
         <div className="dep-links">
             <a href={github} target="_blank" rel="noopener noreferrer">
                 <img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" className="project-icon" />
@@ -18,5 +20,5 @@ const ProjectCards = ({ id, image, name, github, deploy }) => (
         </div>
     </div>
 );
-
+    }
 export default ProjectCards;
