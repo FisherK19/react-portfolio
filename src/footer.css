@@ -1,7 +1,7 @@
 :root {
     --primary-color: #353739; 
-    --secondary-color: #343a40; /* Match this to your desired color */
-    --background-color: #f8f9fa; /* Light gray background */
+    --secondary-color: #343a40; 
+    --background-color: #f8f9fa; 
 }
 
 .img-link {

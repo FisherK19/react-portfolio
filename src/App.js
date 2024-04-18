@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import missing Router and Switch
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import About from './components/about';
 import Contact from './components/contact';
-import Portfolio from './components/portfolio'; // Ensure this is the correct path to your component
+import Portfolio from './components/portfolio'; 
 import Project from './components/project'; 
 import Resume from './components/resume';
 import './App.css';
