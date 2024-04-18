@@ -105,7 +105,7 @@ const Resume = () => {
                                 </div>
                             </div>
 
-                            <div className="modal-footer"/>  // Another footer for aesthetic completion
+                            <div className="modal-footer"/>  
                         </div>
                     </div>
                 </div>
