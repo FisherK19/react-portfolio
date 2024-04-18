@@ -1,6 +1,6 @@
 :root {
-    --primary-color: #007bff; 
-    --secondary-color: #0056b3; /* Darker shade of blue */
+    --primary-color: #353739; 
+    --secondary-color: #343a40; /* Match this to your desired color */
     --background-color: #f8f9fa; /* Light gray background */
 }
 
@@ -10,9 +10,9 @@
 
 .footer-info {
     font-size: 24px;
-    color: var(--primary-color);
+    color: #343a40;
     font-weight: bold;
-    background-color: var(--background-color);
+    background-color: #343a40;
     text-align: center;
 }
 
@@ -35,45 +35,26 @@ h1 {
     text-shadow: 1px 1px 6px var(--secondary-color);
 }
 
-#footer {
-    padding: 5px;
-    margin-top: 10px;
+.footer {
+    background-color: #343a40; 
+    color: white; 
+    padding: 20px; 
+    flex-shrink: 0; 
 }
 
-.icon {
-    padding: 10px;
-}
-
-#contact-section {
-    justify-content: center;
-    margin: 20px;
-    margin-left: 2em;
-    margin-right: 2em;
-}
-
-.error-text {
-    color: var(--primary-color);
-}
-
-#footer {
-    background-color: var(--secondary-color);
-}
 
 #footer .icon {
     background-color: var(--secondary-color);
-    margin-top: 20px;
 }
 
 #footer p {
     background-color: var(--secondary-color);
-    margin-top: 8px;
 }
 
 #footer a {
     text-decoration: none;
     color: var(--primary-color);
 }
-
 #react-icon {
-    background-color: var(--secondary-color);
+    background-color: var(--onyx);
 }

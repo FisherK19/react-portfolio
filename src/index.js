@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { HashRouter as Router } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';  // Ensure you are using the minified version
+import 'bootstrap/dist/css/bootstrap.min.css';  
 import ParticlesBg from "particles-bg";
 
 ReactDOM.render(

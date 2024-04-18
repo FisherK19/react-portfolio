@@ -35,7 +35,7 @@
     color: #fff;
     transition: all 0.3s ease 0s;
     &:hover {
-        background-color: #0056b3; /* Darker shade of blue for hover */
+        background-color: #0056b3; 
         color: #fff;
     }
 }
@@ -74,7 +74,7 @@
   
   .jumbotron {
     background-color: #f8f9fa;
-    border-radius: .125rem;
+    border-radius: .120rem;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   }
   
@@ -112,12 +112,43 @@
     border-radius: 0.25rem;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
+
+.EDX-logo {
+  width: 220px; 
+  height: auto; 
+  margin: 0 auto; 
+  display: block; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto; 
+}
+
+#root {
+  position: relative;
+}
+
+#tsparticles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; 
+}
   
-  .img-skills {
-    max-width: 80%;
-    height: auto;
-  }
-  
+.img-skills {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain; /* Ensures the entire image fits within the container */
+}
+
+
+
   .grid-container-skills {
     display: grid;
     align-items: left;
@@ -128,8 +159,8 @@
   
   .grid-item-skills {
     padding-left: 20px;
-    text-align: left;
-  }
+    text-align: center; /* Center the images */
+}
   
   .portfolio-grid-item {
     text-align: left;
@@ -137,24 +168,17 @@
   
   .grid-container-profile {
     display: grid;
-    align-items: left;
-    justify-items: left;
-    grid-template-columns: repeat(2, 600px);
-    grid-template-rows: repeat(3, 100px);
+    align-items: center; 
+    justify-items: center; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(3, 100px); 
     margin: 1.5%;
-  }
-  
+}
+
   .portfolio-grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
   
-  }
-  
-  .university-logo {
-    float: right;
-    height: 80px;
-    width: 80px;
-    cursor: pointer;
   }
   
   .App {
@@ -213,36 +237,15 @@
     font-size: 20px;
   }
   
-  .title {
-    font-family: Roboto;
-    font-size: 23px;
-    font-weight: bold;
-  }
-  
-  .title-job {
-    font-family: Roboto;
-    font-size: 20px;
-    font-weight: bold;
-  }
-  
-  .title-company {
-    font-family: Roboto;
-    font-size: 17px;
-  }
-  
-  .title-date {
-    font-family: Roboto;
-    font-size: 12px;
-  }
   
   .title-uni {
     font-family: Roboto;
-    font-size: 20px;
+    font-size: 30px;
   }
   
   .title-concentration {
     font-family: Roboto;
-    font-size: 15px;
+    font-size: 25px;
   }
   
   li {
@@ -259,18 +262,12 @@
     padding-bottom: 10px;
   }
   
-  .work-exp {
-    margin: 3.7%;
-  }
+ 
   
   .edu {
     margin-left: 1.5%;
   }
   
-  .company-logo {
-    float: right;
-    height: 70px;
-  }
   
   .avatar {
     padding-top: 10px;
@@ -280,17 +277,8 @@
     border-radius: 50%;
   }
   
-  .icon {
-    padding: 10px;
-  }
-  
-  .abstract-back {
-    background-image: url('assets/images/sunflower_background.jpg');
-    height: 300px;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
+
+
   .btn {
     background-color: #007bff; 
     border-color: #007bff;
@@ -335,13 +323,6 @@
       width: 120px;
       height: 170px;
       border-radius: 50%;
-    }
-  
-    .abstract-back {
-      background-image: url('assets/images/sunflower_background.jpg');
-      height: 180px;
-      background-repeat: no-repeat;
-      background-size: cover;
     }
   
     .grid-container-profile {
