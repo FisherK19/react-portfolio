@@ -37,7 +37,7 @@ const About = () => {
 
                                 <div className='grid-container-profile'>
                                     <div className='grid-item'>
-                                        <div className='title-uni'>EdX</div>
+                                        <div className='title-uni'>edX</div>
                                         <div className='title-concentration'>Full Stack Web Development</div>
                                     </div>
 
