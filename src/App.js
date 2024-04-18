@@ -1,11 +1,11 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'; // Import missing Router and Switch
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './components/header';
 import Footer from './components/footer';
 import About from './components/about';
 import Contact from './components/contact';
-import Portfolio from './components/portfolio';
+import Portfolio from './components/portfolio'; // Ensure this is the correct path to your component
 import Project from './components/project'; 
 import Resume from './components/resume';
 import './App.css';
@@ -16,11 +16,12 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/" exact component={Portfolio} />
-          <Route path="/about" component={About} />
+          <Route path="/" exact component={About} /> {/* Assuming About is your homepage */}
+          <Route path="/portfolio" component={Portfolio} /> {/* Portfolio route */}
           <Route path="/contact" component={Contact} />
           <Route path="/project/:id" component={Project} /> 
           <Route path="/resume" component={Resume} />
+          {/* Other routes as needed */}
         </Switch>
         <Footer />
       </div>
@@ -29,4 +30,5 @@ function App() {
 }
 
 export default App;
+
 

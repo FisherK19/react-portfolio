@@ -48,7 +48,7 @@
   }
   
   .footer {
-    background-color: #6c757d;
+    background-color: #343a40;
     padding-top: 1rem;
   }
   
@@ -66,11 +66,7 @@
     padding-top: 1rem
   }
   
-  .img-fluid {
-    background-repeat: no-repeat;
-    background-image: url('assets/images/sunflower_background.jpg');
-    background-size: cover;
-  }
+
   
   .jumbotron {
     background-color: #f8f9fa;
@@ -94,11 +90,7 @@
     padding-left: 0.40em;
   }
   
-  .fa-envelope {
-    padding-left: 0.40em;
-    color: #CD7F58;
-  }
-  
+
   .row-input {
     height: calc(1.5em + 0.75rem + 2px);
     padding: 0.375rem 0.75rem;
