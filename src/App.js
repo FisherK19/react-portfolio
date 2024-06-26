@@ -16,7 +16,8 @@ function App() {
       <div className="App">
         <Header />
         <Switch>
-          <Route path="/about" exact component={About} /> 
+          <Route path="/" exact component={About} /> {/* Default route */}
+          <Route path="/about" component={About} /> 
           <Route path="/portfolio" component={Portfolio} /> {/* Portfolio route */}
           <Route path="/contact" component={Contact} />
           <Route path="/project/:id" component={Project} /> 
