@@ -27,7 +27,7 @@ const About = () => {
                                 <div className="row">
                                     <p className='p-about'>
                                     {/* Personal introduction and skill description */}
-                                    My name is <b>Kristie Fisher</b>, I am currently a full-stack developer student with a solid foundation in computer science and a growing expertise in key web technologies. 
+                                    My name is <b>Kristie Fisher</b>, I am a full-stack developer with a solid foundation in computer science and a growing expertise in key web technologies. 
                                     My toolkit includes JavaScript, ReactJS, and NodeJS for building dynamic front-end and back-end applications. 
                                     I also work with MongoDB for database management, and I'm skilled in crafting well-structured HTML and stylish CSS layouts.
                                     Additionally, I use tools like Insomnia to test and manage APIs. 
