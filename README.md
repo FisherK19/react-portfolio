@@ -81,6 +81,4 @@ To set up this project locally, follow these steps:
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details.
 
 ## Deployed Link:
-https://main--profound-marigold-1d491a.netlify.app/#/
-
-
+https://kristiefisher-portfolio.com
