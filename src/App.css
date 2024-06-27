@@ -151,18 +151,15 @@ body {
 }
 
 
+.grid-container-skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+  grid-gap: 20px; 
+}
 
-  .grid-container-skills {
-    display: grid;
-    align-items: left;
-    justify-items: left;
-    grid-template-columns: repeat(auto-fill, 170px);
-    grid-template-rows: repeat(auto-fill, 100px);
-  }
-  
-  .grid-item-skills {
-    padding-left: 20px;
-    text-align: center; /* Center the images */
+.grid-item-skills {
+  text-align: center;
+  padding: 10px; 
 }
   
   .portfolio-grid-item {

@@ -7,8 +7,8 @@ import WebpackLogo from '../assets/images/webpack-logo.jpg';
 import HandlebarsLogo from '../assets/images/handlebars-logo.png';
 import SqlLogo from '../assets/images/sql-logo.jpg';
 import MongoLogo from '../assets/images/mongodb-logo.jpg';
-import '../App.css';  // General app styles
-import '../portfolio.css';  // Specific styles for the portfolio components
+import '../App.css';  
+import '../portfolio.css';  
 
 // Resume component definition
 const Resume = () => {
