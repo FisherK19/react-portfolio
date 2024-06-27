@@ -4,6 +4,10 @@ import Texteditor from './assets/images/Texteditor.png';
 import Logogenerator from './assets/images/Logo generator.jpg';
 import TechBlog from './assets/images/techblog.png';
 import WeatherDashboard from './assets/images/Weather Dashboard.png';
+import NodejsChallenge from './assets/images/node.js-challenge.png';
+import PasswordGenerator from './assets/images/PasswordGenerator.png';
+import SQLEmployeeTracker from './assets/images/SQL-Employee-Tracker.png';
+import WorkDayScheduler from './assets/images/Work-day-scheduler.png';
 
 export default [
     {
@@ -32,7 +36,7 @@ export default [
         "name": "Logo Generator",
         "image": Logogenerator,
         "github": "https://github.com/FisherK19/logo-generator-challenge",
-        "Video": "https://drive.google.com/file/d/1aNrmOfYGKHb-4V-bto6V6CDDtOmjreEz/view"
+        "video": "https://drive.google.com/file/d/1aNrmOfYGKHb-4V-bto6V6CDDtOmjreEz/view"
     },
     {
         "id": 5,
@@ -46,6 +50,34 @@ export default [
         "name": "Weather Dashboard",
         "image": WeatherDashboard,
         "github": "https://github.com/FisherK19/weather-dashboard",
-        "deploy": "https://github.com/FisherK19/weather-dashboard https://fisherk19.github.io/weather-dashboard/"
+        "deploy": "https://fisherk19.github.io/weather-dashboard/"
+    },
+    {
+        "id": 7,
+        "name": "Node.js Challenge",
+        "image": NodejsChallenge,
+        "github": "https://github.com/FisherK19/node.js-challenge",
+        "video": "https://drive.google.com/file/d/16zYqk-ZMV4BP98mOWNcYirHOQOxNRcBM/view"
+    },
+    {
+        "id": 8,
+        "name": "Password Generator",
+        "image": PasswordGenerator,
+        "github": "https://github.com/FisherK19/password-generator",
+        "deploy": "https://fisherk19.github.io/password-generator/"
+    },
+    {
+        "id": 9,
+        "name": "SQL Employee Tracker",
+        "image": SQLEmployeeTracker,
+        "github": "https://github.com/FisherK19/SQL-Challenge-Employee-Tracker",
+        "video": "https://drive.google.com/file/d/1CZ_2tFtXAzk4vwxEculKVz9l9wkwssfP/view"
+    },
+    {
+        "id": 10,
+        "name": "Work Day Scheduler",
+        "image": WorkDayScheduler,
+        "github": "https://github.com/FisherK19/work-day-scheduler",
+        "deploy": "https://fisherk19.github.io/work-day-scheduler/"
     }
-]
+];

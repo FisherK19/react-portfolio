@@ -22,7 +22,6 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/project/:id" component={Project} /> 
           <Route path="/resume" component={Resume} />
-          {/* Other routes as needed */}
         </Switch>
         <Footer />
       </div>

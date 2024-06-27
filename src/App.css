@@ -105,13 +105,24 @@
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   }
 
-.EDX-logo {
-  width: 220px; 
-  height: auto; 
-  margin: 0 auto; 
-  display: block; 
-}
-
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+  }
+  
+  .EDX-logo {
+    max-width: 150px;
+    width: 100%; 
+    height: auto; 
+  }
+  
+  
+  .card-body.logo-section {
+    padding-bottom: 40px; 
+  }
 body {
   margin: 0;
   padding: 0;

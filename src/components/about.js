@@ -40,7 +40,7 @@ const About = () => {
                             <div className="modal-footer" />
 
                             {/* Education Section */}
-                            <div className='card-body'>
+                            <div className='card-body logo-section'>
                                 <h2 className='edu'>Education</h2>
                                 <br />
 
@@ -54,7 +54,9 @@ const About = () => {
                                     
                                 {/* edX logo with link to their website */}
                                 <div className='logo-container'>
-                                    <a href='https://www.edx.org/' target='_blank' rel="noopener noreferrer"><img className='EDX-logo' src={EdXLogo} alt="EdX logo" /></a>
+                                    <a href='https://www.edx.org/' target='_blank' rel="noopener noreferrer">
+                                        <img className='EDX-logo' src={EdXLogo} alt="EdX logo" />
+                                    </a>
                                 </div>
                             </div>
                         </div>
